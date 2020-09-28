@@ -1,0 +1,31 @@
+you need to be in master...
+to go back to users folder type in cd ..
+to create new local directory git mkdir test
+to mode inside the directoty >> cd test
+git init to initialize it
+local path will show
+go to the new directory and create new txt file demo and save it
+go back to bash and check git status
+system will show no commits yet
+to add file git demo.txt
+then commit git commit -m "descrption of the file"
+file will be inserted.
+
+clear screen
+
+link github account to git bash > git config --global user.username L00161865
+
+then go to github, create a repository, give it a name, hit create button, copy link
+
+go back to bash type in > git remote add origin https://github.com/L00161865/test_demo.git
+
+then push local file to the repository > git push origin master
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 44.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/L00161865/test_demo.git
+ * [new branch]      master -> master
+
+luzil@Luzilene MINGW64 ~/test (master)
